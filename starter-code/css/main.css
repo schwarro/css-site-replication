@@ -17,6 +17,19 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.content-title {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.home {
+  color: white;
+  display: inline-block;
+  float: right;
+  align-self: right;
+  border: 1px solid black;
+}
+
 .main {
   background: url("../images/frame.png") no-repeat;
   min-height: 204px;
